@@ -45,6 +45,10 @@ variable "yc_folder_id" {
   description = "folder id for yc"
 }
 
+variable "yc_token" {
+  type = string
+  description = "token id for yc"
+}
 variable "vm_resources" {
   type = object({
     disk = number
