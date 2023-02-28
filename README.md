@@ -8,4 +8,4 @@
 3. Работа с terraform
 - cd terraform
 - terraform init
-- terraform apply -var yc_folder_id=$YC_FOLDER_ID -var-file var.tfvars --auto-approve
+- terraform apply -var yc_folder_id=$YC_FOLDER_ID -var yc_token=$YC_TOKEN -var-file var.tfvars --auto-approve
